@@ -1,0 +1,24 @@
+# IDE dosyaları
+.idea/
+*.iml
+*.iws
+
+# Derleme çıktıları
+/bin
+/pkg
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test dosyaları
+*.test
+*.out
+
+# Go specific
+/vendor/
+/go.work
+
+# Mac OS dosyaları
+.DS_Store

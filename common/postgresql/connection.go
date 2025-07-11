@@ -15,7 +15,7 @@ func GetConnectionPool(context context.Context, config Config) *pgxpool.Pool {
 		config.Password,
 		config.DbName,
 		config.MaxConnections,
-		config.MaxConnectionIdleTime)
+		config.MaxConnectionsIdleTime)
 
 	connConfig, parseConfigErr := pgxpool.ParseConfig(connString)
 	if parseConfigErr != nil {

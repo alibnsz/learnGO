@@ -1,3 +1,3 @@
 # learnGo
 
-Go dilinde yazılmış basit bir web uygulaması. Echo framework ve PostgreSQL kullanıyor.
+A simple web application built with Go, using Echo framework and PostgreSQL database.
